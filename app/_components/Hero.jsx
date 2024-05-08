@@ -3,7 +3,7 @@ import Image from "next/image"
 function Hero() {
   return (
     <section className="bg-gray-50 flex items-center flex-col">
-  <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
+  <div className="mx-auto max-w-screen-xl px-4 grid gap-2 md:grid-cols-2 grid-cols-1 h-screen items-center">
     <div className="mx-auto max-w-xl text-center">
       <h1 className="text-3xl font-extrabold sm:text-5xl">
         Manage Your Expenses
@@ -24,15 +24,17 @@ function Hero() {
 
         
       </div>
+      
     </div>
+    <Image
+        src='/dashboard.png'
+        alt='dashboard'
+        width={1000}
+        height={700}
+        className='-mt-9 round-xl border-2'
+      />
   </div>
-  <Image
-    src='/dashboard.png'
-    alt='dashboard'
-    width={1000}
-    height={700}
-    className='-mt-9 round-xl border-2'
-  />
+  
 </section>
   )
 }

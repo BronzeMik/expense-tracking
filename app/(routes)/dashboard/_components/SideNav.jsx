@@ -5,6 +5,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import Link from "next/link";
+import img from '../../../../public/logo.png'
 
 function SideNav() {
   const menuList = [
@@ -37,7 +38,7 @@ function SideNav() {
   return (
     <div className='h-screen p-5 border shadow-sm'>
         <Image 
-        src={'./logo.svg'}
+        src={img}
         width={160}
         height={100}
         />
