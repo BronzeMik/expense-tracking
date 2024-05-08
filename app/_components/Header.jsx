@@ -9,7 +9,7 @@ function Header() {
   return (
     <div className="p-5 flex justify-between items-center border shadow-md">
         <Image 
-        src='./logo.svg'
+        src='./logo.png'
         alt='logo'
         width={160}
         height={100}
