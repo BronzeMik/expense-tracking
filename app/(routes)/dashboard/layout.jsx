@@ -2,7 +2,7 @@
 
 import { db } from "@/utils/dbConfig"
 import DashboardHeader from "./_components/DashboardHeader"
-import SideNav from "./_components/SIdeNav"
+import SideNav from "./_components/SideNav"
 import { Budgets } from "@/utils/schema"
 import { useUser } from "@clerk/nextjs"
 import { useEffect } from "react"
