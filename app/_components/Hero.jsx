@@ -1,4 +1,5 @@
 import Image from "next/image"
+import img2 from '../../public/dashboard.png'
 
 function Hero() {
   return (
@@ -27,7 +28,7 @@ function Hero() {
       
     </div>
     <Image
-        src='/dashboard.png'
+        src={img2}
         alt='dashboard'
         width={1000}
         height={700}
